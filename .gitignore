@@ -1,1 +1,7 @@
-config/*.env
+# Other ignored files
+node_modules/
+dist/
+.env
+
+# Ignore the config.env file
+backend/config/config.env
