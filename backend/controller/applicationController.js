@@ -25,7 +25,6 @@ export const postApplication = catchAsyncErrors(async (req, res, next) => {
   const cloudinaryResponse = await cloudinary.uploader.upload(
     resume.tempFilePath
   );
-  console.log(cloudinaryResponse);
 
   if (!cloudinaryResponse || cloudinaryResponse.error) {
     console.error(
@@ -141,3 +140,6 @@ export const jobseekerDeleteApplication = catchAsyncErrors(
     });
   }
 );
+
+
+
