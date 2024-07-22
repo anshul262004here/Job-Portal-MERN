@@ -5,3 +5,4 @@ dist/
 
 # Ignore the config.env file
 backend/config/config.env
+/frontend/node_modules
