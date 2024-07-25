@@ -2,7 +2,7 @@ To run this project locally
 1. Clone the Repository
 First, clone the project repository from GitHub.
 
-git clone "repo url"
+git clone "https://github.com/anshul262004here/Job-Portal-MERN.git"
 
 2. Configure Environment Variables
 Create a .env file in the backend directory and fill it with your MongoDB token and JSON Web Token (JWT) key.
@@ -13,7 +13,7 @@ JWT_SECRET=your_jwt_secret
 cd backend
 npm install
 npm run dev
-The server will start running on port 5000.
+The server will start running on port 8000.
 
 4. Install Frontend Dependencies and run the Client
 cd frontend
